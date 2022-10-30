@@ -1,6 +1,6 @@
 # Quiz Application
 
-This is mernstack based quiz application.
+This is mernstack based quiz application. Utilizing latest class based decorators approach with typescript to setup express.js server.
 
 ## Packages used:
 
