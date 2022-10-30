@@ -12,7 +12,7 @@
     "check-format": "prettier --check .",
     "build:watch": "tsc --watch",
     "build:run": "nodemon dist/app.js",
-    "start:dev": "yarn build && cross-env NODE_ENV=development concurrently \"yarn build:watch\" \"yarn build:run\"",
+    "start:dev": "npm run build && cross-env NODE_ENV=development concurrently \"npm run build:watch\" \"npm run build:run\"",
     "start:prod": "cross-env NODE_ENV=production node dist/app.js",
     "start": "cross-env NODE_ENV=development node dist/app.js"
   },
