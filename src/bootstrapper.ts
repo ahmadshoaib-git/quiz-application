@@ -3,9 +3,7 @@ import express, { Application } from 'express';
 import morgan from 'morgan';
 import logger from './lib/logger';
 
-type PortType = {
-  port: string | number;
-};
+type PortType = string | number;
 class ExpressApplication {
   private app: Application;
 
